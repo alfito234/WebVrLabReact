@@ -1,4 +1,6 @@
 import styles from "../style";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Ilustrasi from "../assets/Image/ilustrasi.png";
 import Vr from "../assets/Icon/vr.png";
 
@@ -8,7 +10,7 @@ const Hero = () => (
       className={`flex-1 ${styles.flexStart} flex-col xl:px-20 sm:px-16 px-20`}
     >
       <div className="flex justify-center items-center w-full">
-        <div>
+        <div data-aos="fade-right">
           <h1 className="font-poppins mb-10 font-bold text-[52px] text-white">
             Virtual Reality LAB
           </h1>
